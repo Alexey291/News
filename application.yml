@@ -1,0 +1,9 @@
+spring.datasource.url:  jdbc:postgresql://localhost:5432/news
+spring.datasource.username: root
+spring.datasource.password: 1410
+spring.jpa.hibernate.ddl-auto: validate
+spring.jpa.show-sql: false
+spring.freemarker.expose-request-attributes: true
+
+
+

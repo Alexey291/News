@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>News</title>
+</head>
+<body>
+<h1>News</h1>
+<div th:each="news : ${news}">
+    <h2><a th:text="${news.title}"></a></h2>
+    <a th:text="${news.text}">
+        <!--a href="#" class = "plan-link"  th:text="${news.title}"></a>
+        <a href="#" class = "plan-link"  th:text="${news.text}"></a-->
+</div>
+</body>
+</html>
